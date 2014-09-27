@@ -1,0 +1,7 @@
+AddHandler cgi-script .py
+Options +ExecCGI
+AuthType Basic
+AuthName "git repository"
+AuthUserFile ".htpasswd"
+Require valid-user
+
